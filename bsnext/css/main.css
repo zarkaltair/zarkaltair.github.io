@@ -1,0 +1,380 @@
+/* Font connection */
+
+@font-face {
+    font-family: 'Jaapokkisubtract';
+    src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Specification */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #0001c5;
+    letter-spacing: 0.06em;
+}
+
+div, p, span, a, input, button {
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+.jpk-font {
+    font-family: 'Jaapokkisubtract', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jaapokkisubtract', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    line-height: 1.25em;
+}
+
+h2 {
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+
+h3 {
+    letter-spacing: 0.03;
+}
+
+.conteiner {
+    margin: 0 8%;
+    position: relative;
+}
+
+.btn {
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 17px 0;
+    width: 217px;
+    transition: all 0.3s ease;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.btn:hover {
+    background: #fff;
+    color: #0001c5;
+    transform: scale(1.15);
+}
+
+/* Hero section */
+
+.header {
+    background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom / cover;
+    color: #fff;
+    height: 100vh;
+    box-shadow: 0 25px 50px rgba(33,48,99,0.45);
+}
+
+.header .conteiner {
+    height: 100vh;
+}
+
+.logo {
+    width: 50px;
+    height: 46px;
+    background: #fff;
+    color: #0000a0;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3 ease;
+    position: absolute;
+    top: 8%;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.logo:hover {
+    background: #fff;
+    color: #0001c5;
+    transform: scale(1.1);
+}
+
+.brah {
+    background: #fff;
+    font-size: 18px;
+    color: #0304b9;
+    width: 42px;
+    height: 184px;
+    padding: 10px 15px;
+    position: absolute;
+    left: 57%;
+    top: 0;
+    line-height: 1.5em;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.hamburger {
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 8%;
+    float: right;
+    cursor: pointer;
+}
+
+.hamburger span {
+    background: #fff;
+    display: block;
+    height: 2px;
+    margin-bottom: 6px;
+    float: right;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.hamburger span:nth-child(1) {
+
+}
+
+.hamburger span:nth-child(2) {
+    width: 75%;
+}
+
+.hamburger span:nth-child(3) {
+    width: 50%;
+}
+
+.hamburger:hover span {
+    float: left;
+}
+
+.offer {
+    position: absolute;
+    left: 0;
+    top: 18%;
+}
+
+.offer_bg {
+    font-size: 300px;
+    color: #1b1cc4;
+    position: absolute;
+
+}
+
+.offer_title {
+    font-size: 55px;
+    position: relative;
+    width: 550px;
+    margin-top: 110px;
+    margin-left: 140px;
+}
+
+.offer_title:after {
+    content: '';
+    display: block;
+    background: #fff;
+    width: 29px;
+    height: 5px;
+    position: absolute;
+    right: 180px;
+    top: -20px;
+}
+
+.offer_text {
+    font-size: 17px;
+    width: 337px;
+    margin-top: 40px;
+    margin-left: 230px;
+}
+
+.offer_btn {
+    margin-left: 350px;
+    margin-top: 45px;
+}
+
+.next {
+    font-size: 300px;
+    width: 433px;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    line-height: 0;
+    text-shadow: 20px 20px 0 #0309a1;
+}
+
+.next span {
+    margin-right: -70px;
+    line-height: 0.7em;
+}
+
+.next span:nth-child(2) {
+    color: #0048ff;
+}
+
+.scroll {
+    display: block;
+    font-size: 22px;
+    border-right: 3px solid #fff;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 25px;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.scroll:hover {
+    color: #0000a0;
+    box-shadow: -150px 0 0 0 rgba(255,255,255,0.8) inset;
+}
+
+/* Services */
+
+.services {
+    padding-top: 120px;
+}
+
+.section_title_intro {
+    font-family: 'Jaapokkisubtract', sans-serif;
+    color: #8485e3;
+    font-size: 23px;
+    margin: 0;
+    margin-left: 
+}
+
+.section_title_title {
+    font-size: 85px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.section_title_title:after {
+    content: '';
+    display: inline-block;
+    background: #0001c5;
+    width: 30px;
+    height: 4px;
+    margin-bottom: -15px;
+    margin-left: -10px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 185px;
+}
+
+.service_item {
+    width: 18%;
+    border: 4px solid #0001c5;
+    display: block;
+    padding-left: 55px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.service_item:hover {
+    background: #0001c5;
+    color: #fff;
+    box-shadow: 16px 16px 64px rgba(0,1,197,0.45)
+}
+
+.service_icon {
+    font-size: 45px;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.service_title {
+    font-size: 26px;
+}
+
+.service_more {
+    font-size: 34px;
+    width: 40px;
+    height: 40px;
+    margin-left: 182px;
+    margin-top: 415px;
+    background: #0001c5;
+    color: #fff;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+}
+
+.service_more:hover {
+    color: #0001c5;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.service-index {
+    position: absolute;
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 23px;
+    color: #a8a8e4;
+    margin-left: -120px;
+    margin-top: -40px;
+}
+
+/* Footer */
+
+.footer {
+    background: #ededf8;
+    padding: 160px 0;
+}
+
+.credits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credits-logo {
+    background: #0001c5;
+    color: #fff;
+    position: relative;
+    top: auto;
+}
+
+.credits_btn {
+    color: #0001c5;
+    background: #fff;
+    border: 2px solid #0001c5;
+    font-size: 17px;
+    padding: 13px;
+    width: 172px;
+}
+
+.credits_up {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

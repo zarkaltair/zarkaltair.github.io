@@ -1,0 +1,26 @@
+/* 480px 768px */
+
+@media screen and (max-width: 768px) {
+	.images {
+		margin: 0;
+		padding-top: 1%;
+	}
+	.images img {
+		width: 220px;
+		height: 130px;
+		margin: 1%;
+	}
+}
+
+/* 320px - 480px */
+
+@media screen and (max-width: 480px) {
+	.images {
+		margin: 2%;
+	}
+	.images img {
+	    width: 185px;
+	    height: 110px;
+	    margin: 1%;
+	}
+}

@@ -1,0 +1,153 @@
+@media screen and (min-width: 1151px) {
+	.indicator {
+		display: none;
+	}
+}
+
+/* 768px - 1150px */
+
+@media screen and (max-width: 1150px) {
+	.visible-lg {
+		display: none;
+	}
+	.m-menu-link {
+		display: block;
+	}
+}
+
+/* 480px - 768px */
+
+@media screen and (max-width: 768px) {
+	.visible-lg {
+		display: none;
+	}
+}
+
+/* 320px - 480px */
+
+@media screen and (max-width: 480px) {
+	body {
+		background-color: #F2F2F2;
+	}
+	.container {
+		/* box-shadow: 0 0 20px rgba(10,10,99,1); */
+		/* padding: 10% 10%; */
+		margin: 3% 3%;
+		background-color: #fff;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	.head_text {
+		font-size: 0.9rem;
+		line-height: 1.6;
+		text-align: justify;
+	}
+	.header {
+		margin-top: -2%;
+		margin-bottom: -5%;
+	}
+	.header .container {
+		height: 90%;
+		text-align: center;
+	}
+	.visible-lg {
+		display: none;
+	}
+	.title {
+		font-size: 35px;
+		padding-top: 35%;
+	}
+	.title_color {
+		font-size: 40px;
+		margin: 5% 0;
+	}
+	.sub_title {
+		font-size: 18px;
+	}
+	.content {
+		display: block;
+		text-align: center;
+	}
+	.content .text ul {
+		text-align: left;
+	}
+	.screen {
+		width: 70%;
+		padding-top: 5%;
+	}
+	.about_us {
+		font-size: 2rem;
+	}
+	.skills {
+		font-size: 15px;
+		margin-left: 0;
+		line-height: 30px;
+		padding-left: 10%;
+		list-style-image: none;
+	}
+	.team {
+		display: block;
+	}
+	.member {
+		margin: 20% 0;
+	}
+	.img-member {
+		width: 75%;
+	}
+	.works {
+		display: block;
+	}
+	.work_nam {
+		width: 100%;
+		margin: 20% 0;
+	}
+	.works_name {
+		padding: 0;
+	}
+	.works_text {
+		margin-bottom: 10%;
+		padding: 5% 0;
+	}
+	.work_nam img {
+		width: 50%;
+	}
+	.work_nam {
+		width: 100%;
+		padding: 0;
+	}
+	.works_item {
+		margin: 5% 5%;
+	}
+	.works_cont {
+	/* display: flex;
+	justify-content: space-between;
+	align-items: ; */
+	}
+	.works_cont img {
+		width: 49%;
+		padding: 0;
+	}
+	.clients {
+		display: block;
+		text-align: center;
+		margin-bottom: 10%;
+	}
+	.client {
+		padding: 5% 0;
+		font-size: 2rem;
+	}
+	.head_text_contact {
+		font-size: 0.9rem;
+		line-height: 1.6;
+		text-align: justify;
+	}
+	.social {
+		margin: 5% 5%;
+		height: 10%;
+	}
+	.social a {
+		transform: scale(2);
+		color: black;
+	}
+}

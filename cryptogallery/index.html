@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3D Swipe Crypto Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<!-- Swiper -->
+	<div class="swiper-container-1">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" style="background-image:url(img/img1.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img2.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img3.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img4.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img5.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img6.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img7.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img8.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img9.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img10.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img11.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img12.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img13.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img14.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img15.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img16.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img17.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img18.jpg)"></div>
+		</div>
+	</div>
+	<div class="swiper-container-2">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" style="background-image:url(img/img1.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img2.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img3.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img4.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img5.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img6.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img7.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img8.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img9.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img10.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img11.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img12.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img13.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img14.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img15.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img16.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img17.jpg)"></div>
+			<div class="swiper-slide" style="background-image:url(img/img18.jpg)"></div>
+		</div>
+	</div>
+
+	<!-- Initialize swiper.min.js -->
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	
+	<!-- Initialize Swiper №1 -->
+	<script>
+    	var swiper = new Swiper('.swiper-container-1', {
+    		effect: 'coverflow',
+    		grabCursor: true,
+    		centeredSlides: true,
+    		slidesPerView: 'auto',
+    		coverflowEffect: {
+     			rotate: 0,
+    			stretch: 0,
+        		depth: 500,
+        		modifier: 1,
+        		slideShadows : true,
+      		},
+      		pagination: {
+        	el: '.swiper-pagination',
+      		},
+    	});
+	</script>
+
+	<!-- Initialize Swiper №2 -->
+	<script>
+    	var swiper = new Swiper('.swiper-container-2', {
+    		effect: 'coverflow',
+    		grabCursor: true,
+    		centeredSlides: true,
+    		slidesPerView: 'auto',
+    		coverflowEffect: {
+     			rotate: 50,
+    			stretch: 0,
+        		depth: 100,
+        		modifier: 0.8,
+        		slideShadows : true,
+      		},
+      		pagination: {
+        	el: '.swiper-pagination',
+      		},
+    	});
+	</script>
+</body>
+</html>

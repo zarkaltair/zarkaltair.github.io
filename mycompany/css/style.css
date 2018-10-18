@@ -1,0 +1,400 @@
+/* Specification */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 h2 p {
+	box-sizing: border-box;
+}
+h2 {
+	padding-top: 2%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 4rem;
+	padding-bottom: 2%;
+	justify-content: space-between;
+	border-bottom: 5px solid #fcac45;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	margin: 2% 5%;
+	padding: 2% 5%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+strong {
+	font-weight: 900;
+}
+/* Header style */
+
+.header {
+	padding-top: 2%;
+	height: 100vh;
+}
+.header .container {
+	background: #0a0a0a;
+	color: #fff;
+	height: 60%;
+	padding: 5%;
+}
+.logo-menu {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	padding: 1%;
+	justify-content: space-between;
+}
+.menu a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 2% 0 2%;
+	transition: 0.3s;
+}
+.menu a:hover {
+	transform: scale(1.2);
+}
+.m-menu-link {
+	display: none;
+	color: #fff;
+	font-size: 1.8rem;
+	margin-right: 1rem;
+}
+.m-menu {
+	color: white;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	width: 100%;
+	list-style: none;
+	font-size: 2rem;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 999;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: 0.2s;
+	transform: translateX(100%);
+}
+.m-menu a {
+	color: white;
+	text-transform: uppercase;
+	padding: 3%;
+	font-size: 1.5rem;
+}
+.m-menu__active {
+	transform: translateX(0%);
+}
+.close-menu {
+    position: fixed;
+    right: 2.9rem;
+    font-size: 3rem;
+    top: 1.4rem;
+    font-weight: 100;
+    color: #fff;
+}
+.close-menu:hover {
+	cursor: pointer;
+}
+.title {
+	font-weight: 100;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 5%;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+.title_color {
+	font-weight: 900;
+	color: #fcac45;
+	display: inline-block;
+}
+.sub_title {
+	font-weight: 100;
+	font-size: 22px;
+	padding-top: 2%;
+	text-align: center;
+	padding-bottom: 20%;
+}
+.sub_title_text {
+	font-weight: 900;
+	font-size: 23px;
+	letter-spacing: 0.03em;
+}
+.indicator {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	transform: rotate(45deg);
+}
+.indicator span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	box-sizing: border-box;
+	border-right: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	animation: animate 1s linear infinite;
+}
+.indicator span:nth-child(1){
+	top: -30px;
+	left: -30px;
+	animation-delay: 0s;
+}
+.indicator span:nth-child(2){
+	top: -15px;
+	left: -15px;
+	animation-delay: 0.2s;
+}
+.indicator span:nth-child(3){
+	top: 0px;
+	left: 0px;
+	animation-delay: 0.4s;
+}
+.indicator span:nth-child(4){
+	top: 15px;
+	left: 15px;
+	animation-delay: 0.6s;
+}
+.indicator span:nth-child(5){
+	top: 30px;
+	left: 30px;
+	animation-delay: 0.8s;
+}
+@keyframes animate {
+	0%
+	{
+		border-color: #fff;
+		transform: translate(0,0);
+	}
+	20%
+	{
+		border-color: #fff;
+		transform: translate(15px,15px);
+	}
+	20.1%, 100%
+	{
+		border-color: #222;
+	}
+}
+
+/* Section about us style */
+
+.content {
+	height: 50rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.screen {
+	width: 40%;
+	/* margin-top: 10%;
+	margin-bottom: 10%; */
+}
+.text {
+	padding: 5%;
+	/* margin-top: 10%;
+	margin-right: 10%;
+	float: right; */
+}
+.about_us {
+	text-align: center;
+	font-size: 45px;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding-bottom: 2%;
+	border-bottom: 5px solid #fcac45;
+}
+.strong {
+	font-weight: 900;
+}
+.some_words {
+	font-size: 22px;
+}
+.skills {
+	margin-left: 3%;
+	list-style-image: url(../img/list-img.png);
+	padding-top: 5%;
+	font-size: 22px;
+	line-height: 40px;
+	letter-spacing: -0.04em;
+}
+.italic {
+	font-style: italic;
+}
+
+/* Section our team style */
+
+/* #our_team {
+	color: #fff;
+	background: #000;
+} */
+.team {
+	display: flex;
+	justify-content: space-between;
+}
+.member {
+	text-align: center;
+}
+.img-member {
+	height: 25%;
+}
+.name {
+	font-size: 24px;
+	text-align: center;
+}
+.work {
+	text-align: center;
+}
+.dif {
+	padding-top: 5%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+/* Section our services style */
+
+.head_text {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 100;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.works {
+	display: flex;
+	justify-content: space-between;
+}
+.work_nam {
+	padding: 2%;
+	width: 25%;
+}
+.work_nam img {
+	width: 55%;
+	padding-right: 25%;
+	padding-left: 25%;
+}
+.works_name {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-align: center;
+	padding-top: 50px;
+}
+.works_text {
+	width: 100%;
+	padding-top: 5%;
+	text-align: center;
+	margin-bottom: 50%;
+}
+
+/* Section clients style */
+
+/* #clients {
+	color: #fff;
+	background: #000;
+} */
+.title_light {
+	font-weight: 100;
+}
+.title_bold {
+	font-weight: 900;
+}
+.clients {
+	padding: 0 2%;
+	display: flex;
+	justify-content: space-between;
+}
+.clients li {
+	list-style-type: none;
+}
+.client {
+	text-transform: uppercase;
+	padding-top: 12%;
+	padding-bottom: 15%;
+	font-size: 50px;
+}
+
+/* Section our works style */
+
+.works_item {
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-bottom: 10%;
+}
+.works_cont img {
+	padding: 1%;
+}
+
+/* Section our clients’ testimonials style */
+
+/* #testimonials {
+	color: #fff;
+	background: #000;
+} */
+.comment {
+	font-size: 24px;
+	padding-top: 8%;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 5%;
+	justify-content: space-between;
+}
+.ceo {
+	font-size: 22px;
+	text-align: center;
+	padding-top: 7%;
+	padding-bottom: 15%;
+}
+
+/* Section contact us style */
+
+.head_text_contact {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 100;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* Section footer style */
+
+/* #footer {
+	background: #222222;
+	height: 100px;
+} */
+.social {
+	height: 20%;
+	margin: 0 15%;
+	display: flex;
+	justify-content: space-between;
+}
+.social a {
+	transform: scale(4);
+	padding: 5%;
+}

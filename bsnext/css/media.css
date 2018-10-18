@@ -1,0 +1,148 @@
+/* 1601px - 1920px */
+@media screen and (max-width: 1920px) {
+
+}
+/* 1369px - 1600px */
+@media screen and (max-width: 1600px) {
+
+}
+/* 961px - 1368px */
+@media screen and (max-width: 1368px) {
+    .offer_bg {
+        font-size: 200px;
+    }
+    .offer_title {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .offer_text {
+        margin-left: 150px;
+    }
+    .offer_btn {
+        margin-left: 240px;
+    }
+    .next {
+        font-size: 200px;
+        width: 220px;
+        left: 75%;
+    }
+    .brah {
+        display: none;
+    }
+    .service {
+        flex-direction: column;
+    }
+    .service_item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+/* 769px - 960px */
+@media screen and (max-width: 960px) {
+    .next {
+        display: none;
+    }
+    .credits {
+        flex-direction: column;
+    }
+    .credits > * {
+        margin-bottom: 40px;
+    }
+}
+/* 481px - 768px */
+@media screen and (max-width: 768px) {
+    .header {
+        height: auto;
+        padding-top: 40px;
+    }
+    .header .conteiner {
+        height: auto;
+    }
+    .nav {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .logo {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    .hamburger {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: -42px;
+    }
+    .offer {
+        position: relative;
+        left: auto;
+        top: auto;
+        padding-top: 50px;
+        margin-top: 0;
+    }
+    .offer_bg {
+        font-size: 100px;
+    }
+    .offer_title {
+        font-size: 35px;
+        width: auto;
+        margin-left: auto;
+        margin-top: 150px;
+    }
+    .offer_text {
+        margin-left: 0;
+        width: 290px;
+    }
+    .offer_btn {
+        margin-left: 25%;
+        margin-bottom: 150px;
+    }
+    .service-index {
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+}
+/* 320px - 480px */
+@media screen and (max-width: 480px) {
+    .section_title_title {
+        font-size: 50px;
+    }
+    .service-index {
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+    .offer_btn {
+        margin-left: 12%;
+    }
+    .offer_bg {
+        height: 100vh;
+    }
+    .section_title_intro {
+        padding-top: 0;
+    }
+    .service {
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    h3 {
+        width: 200px;
+    }
+    .service-index {
+        margin-left: 200px;
+    }
+    .footer {
+        padding: 50px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
