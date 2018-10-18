@@ -1,3 +1,40 @@
+/* 1367px - 1599px */
+
+@media screen and (max-width: 1599px) {
+	.menu {
+		padding-left: 0;
+	}
+	.logo {
+		padding-right: 0;
+	}
+}
+
+/* 1150px - 1366px */
+
+@media screen and (max-width: 1365px) {
+	.visible-lg {
+		display: none;
+	}
+	.m-menu-link {
+		display: block;
+	}
+	.logo-menu {
+		justify-content: space-between;
+	}
+	.client {
+		font-size: 35px;
+	}
+	.works_item {
+		margin: 5% 5%;
+	}
+	.works_cont img {
+		width: 24.5%;
+		padding: 0;
+	}
+}
+
+/* min-width: 1151px */
+
 @media screen and (min-width: 1151px) {
 	.indicator {
 		display: none;
@@ -7,11 +44,29 @@
 /* 768px - 1150px */
 
 @media screen and (max-width: 1150px) {
-	.visible-lg {
-		display: none;
+	.header .container {
+		height: 75%;
+		text-align: center;
 	}
-	.m-menu-link {
-		display: block;
+	.member {
+		width: 50%;
+	}
+	.img-member {
+		width: 75%;
+		height: auto;
+	}
+	.team {
+		margin-bottom: 5%;
+	}
+	.client {
+		font-size: 25px;
+	}
+	.works_item {
+		margin: 5% 5%;
+	}
+	.works_cont img {
+		width: 32.5%;
+		padding: 0;
 	}
 }
 
@@ -20,6 +75,43 @@
 @media screen and (max-width: 768px) {
 	.visible-lg {
 		display: none;
+	}
+	.header {
+		height: 100%;
+	}
+	.header .container {
+		height: 80%;
+		text-align: center;
+	}
+	.content {
+		display: block;
+		text-align: center;
+		height: 100%;
+		padding-top: 5%;
+	}
+	.screen {
+		width: 70%;
+	}
+	.skills {
+		font-size: 16px;
+		list-style-image: none;
+		text-align: left;
+	}
+	.clients {
+		display: block;
+		text-align: center;
+		margin-bottom: 10%;
+	}
+	.client {
+		padding: 5% 0;
+		font-size: 2rem;
+	}
+	.works_item {
+		margin: 5% 5%;
+	}
+	.works_cont img {
+		width: 49%;
+		padding: 0;
 	}
 }
 
@@ -30,8 +122,6 @@
 		background-color: #F2F2F2;
 	}
 	.container {
-		/* box-shadow: 0 0 20px rgba(10,10,99,1); */
-		/* padding: 10% 10%; */
 		margin: 3% 3%;
 		background-color: #fff;
 	}
@@ -118,11 +208,6 @@
 	}
 	.works_item {
 		margin: 5% 5%;
-	}
-	.works_cont {
-	/* display: flex;
-	justify-content: space-between;
-	align-items: ; */
 	}
 	.works_cont img {
 		width: 49%;
