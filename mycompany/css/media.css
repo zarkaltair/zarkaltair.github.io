@@ -57,9 +57,25 @@
 	}
 	.team {
 		margin-bottom: 5%;
+		display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	    text-align: center;
 	}
 	.client {
 		font-size: 25px;
+	}
+	.works {
+		display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	    text-align: center;
+	}
+	.work_nam {
+		width: 50%;
+	}
+	.works_text {
+		margin-bottom: 25%;
 	}
 	.works_item {
 		margin: 5% 5%;
@@ -68,6 +84,13 @@
 		width: 32.5%;
 		padding: 0;
 	}
+	.social {
+		height: 20%;
+		margin: 5% 10%;
+	}
+	.social a {
+		transform: scale(3);
+	}
 }
 
 /* 480px - 768px */
@@ -75,6 +98,12 @@
 @media screen and (max-width: 768px) {
 	.visible-lg {
 		display: none;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	.about_us {
+		font-size: 3rem;
 	}
 	.header {
 		height: 100%;
@@ -113,6 +142,28 @@
 		width: 49%;
 		padding: 0;
 	}
+	.head_text_contact {
+		font-size: 1.2rem;
+		line-height: 1.6;
+		text-align: justify;
+	}
+	.team {
+		display: block;
+		margin: 12%;
+	}
+	.member {
+		width: 100%;
+		margin: 5% 0;
+		padding: 5% 0;
+	}
+	.close-menu {
+		right: 3.2rem;
+    	top: 1.1rem;
+    	padding: 5%;
+	}
+	.m-menu a {
+		padding: 1%;
+	}
 }
 
 /* 320px - 480px */
@@ -136,6 +187,7 @@
 	.header {
 		margin-top: -2%;
 		margin-bottom: -5%;
+		height: 100vh;
 	}
 	.header .container {
 		height: 90%;
@@ -178,9 +230,12 @@
 	}
 	.team {
 		display: block;
+		margin: 0;
 	}
 	.member {
-		margin: 20% 0;
+		margin: 0;
+		width: 100%;
+		padding: 10% 0;
 	}
 	.img-member {
 		width: 75%;
@@ -222,11 +277,6 @@
 		padding: 5% 0;
 		font-size: 2rem;
 	}
-	.head_text_contact {
-		font-size: 0.9rem;
-		line-height: 1.6;
-		text-align: justify;
-	}
 	.social {
 		margin: 5% 5%;
 		height: 10%;
@@ -234,5 +284,13 @@
 	.social a {
 		transform: scale(2);
 		color: black;
+	}
+	.close-menu {
+		right: 1.7rem;
+    	top: 0;
+    	padding: 5%;
+	}
+	.m-menu a {
+		padding: 3%;
 	}
 }

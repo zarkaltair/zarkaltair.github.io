@@ -343,7 +343,6 @@ h1:before {
 	justify-content: space-between;
 }
 .work_nam {
-	padding: 2%;
 	width: 25%;
 }
 .work_nam img {
@@ -445,11 +444,10 @@ h1:before {
 } */
 .social {
 	height: 20%;
-	margin: 0 15%;
+	margin: 2% 15%;
 	display: flex;
 	justify-content: space-between;
 }
 .social a {
 	transform: scale(4);
-	padding: 5%;
 }
