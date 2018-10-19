@@ -12,7 +12,7 @@
 		display: none;
 	}
 	.header .logo img {
-		width: 25rem;
+		width: 30rem;
 	}
 	.m-menu-link {
 		display: block;
@@ -21,7 +21,20 @@
 		margin: 0;
 	}
 	.table {
-		padding: 4rem;
+		padding: 8rem 4rem 4rem 4rem;
+	}
+	.main-text p {
+		width: 650px;
+		font-size: 2rem;
+		line-height: 30px;
+	}
+	.arrow-down {
+		width: 8rem;
+		height: 8rem;
+		line-height: 10rem;
+	}
+	.arrow-down img {
+		height: 3rem;
 	}
 	.price-tags {
 		flex-direction: column;
@@ -34,8 +47,6 @@
 	}
 	.call-to-action {
 		padding: 7.5rem;
-	}
-
 	}
 	.footer .logo img {
 		width: 30rem;
@@ -52,6 +63,13 @@
 	.legal {
 		flex-direction: column;
 		padding-bottom: 5rem;
+	}
+	.social-link {
+		margin: 0;
+		margin-top: 1.5rem;
+	}
+	.social-link a {
+		padding: 0 2rem 0 2rem;
 	}
 }
 
