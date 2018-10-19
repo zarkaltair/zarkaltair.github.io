@@ -2,10 +2,12 @@
 @media screen and (max-width: 1920px) {
 
 }
+
 /* 1369px - 1600px */
 @media screen and (max-width: 1600px) {
 
 }
+
 /* 961px - 1368px */
 @media screen and (max-width: 1368px) {
     .offer_bg {
@@ -37,6 +39,7 @@
         margin-bottom: 40px;
     }
 }
+
 /* 769px - 960px */
 @media screen and (max-width: 960px) {
     .next {
@@ -49,6 +52,7 @@
         margin-bottom: 40px;
     }
 }
+
 /* 481px - 768px */
 @media screen and (max-width: 768px) {
     .header {
@@ -103,14 +107,21 @@
         margin-top: 10px;
     }
 }
+
 /* 320px - 480px */
 @media screen and (max-width: 480px) {
     .section_title_title {
         font-size: 50px;
     }
+    .services {
+        padding-top: 50px;
+    }
     .service-index {
         margin-left: 150px;
         margin-top: 10px;
+    }
+    .offer {
+        padding-top: 20px;
     }
     .offer_btn {
         margin-left: 12%;
@@ -132,7 +143,7 @@
         margin-left: 200px;
     }
     .footer {
-        padding: 50px 0;
+        padding: 50px 0 0 0;
     }
 }
 
