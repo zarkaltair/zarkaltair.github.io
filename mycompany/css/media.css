@@ -90,6 +90,12 @@
 	}
 	.social a {
 		transform: scale(3);
+		color: black;
+	}
+	.nav-menu {
+		color: grey;
+		padding: 3%;
+		font-size: 1.25rem;
 	}
 }
 
@@ -278,7 +284,7 @@
 		font-size: 2rem;
 	}
 	.social {
-		margin: 5% 5%;
+		margin: 12% 5%;
 		height: 10%;
 	}
 	.social a {

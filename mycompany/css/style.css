@@ -450,4 +450,5 @@ h1:before {
 }
 .social a {
 	transform: scale(4);
+	color: black;
 }
