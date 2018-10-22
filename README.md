@@ -9,3 +9,4 @@ https://zarkaltair.github.io/mystyle/
 https://zarkaltair.github.io/neuralnetwork/
 https://zarkaltair.github.io/pricing/
 https://zarkaltair.github.io/knockneo/
+https://zarkaltair.github.io/randomcolor/
