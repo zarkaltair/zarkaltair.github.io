@@ -1,0 +1,39 @@
+body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+     background: #101010;
+}
+
+pre {
+     font-family: 'PT Serif', serif;
+     width: 90%;
+     margin: 5% 5%;
+     color: #00DB45;
+     letter-spacing: 0.1rem;
+     font-size: 16px;
+}
+
+#tagline {
+     font-size: 20px;
+     color: #00DB45;
+     font-weight: 500;
+}
+
+#pow-txt {
+     display: none;
+     font-weight: 100;
+     color: red !important;
+}
+
+@media screen and (max-width: 768px) {
+     pre {
+          margin: 5% 2%;
+          font-size: 10px;
+     }
+
+     #tagline {
+          font-size: 14px;
+     }
+}
