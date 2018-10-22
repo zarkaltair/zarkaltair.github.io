@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Random color</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="wrapper">
+		<h1 id="colour">#e63c44</h1>
+		<button id="change" type="button">New Colour</button>
+	</div>
+	
+	<script>
+		
+		var btn = document.getElementById('change');
+		var text = document.getElementById('colour');
+
+		var generator = function() {
+			newColour = '#' + 
+			(Math.random()*0xFFFFFF<<0).toString(16);
+			console.log(newColour.length);
+			if(newColour.length < 7) {
+				generator();
+			}
+		}
+
+		btn.addEventListener('click', function() {
+			generator();
+
+			document.body.style.background = newColour;
+			btn.style.color = newColour;
+			text.innerText = newColour;
+		});
+
+	</script>
+
+</body>
+</html>
