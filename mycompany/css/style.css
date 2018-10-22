@@ -304,6 +304,7 @@ h1:before {
 	background: #000;
 } */
 .team {
+	margin-bottom: 10%;
 	display: flex;
 	justify-content: space-between;
 }
