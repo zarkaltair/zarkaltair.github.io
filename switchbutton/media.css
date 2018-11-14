@@ -1,0 +1,22 @@
+/* 480px - 1024px */
+
+@media screen and (max-width: 1024px) {
+	body {
+		display: flex;
+    	flex-wrap: wrap;
+	}
+	div {
+		padding: 8.4%;
+	}
+}
+
+/* 320px - 480px */
+
+@media screen and (max-width: 480px) {
+	body {
+		display: grid;
+	}
+	div {
+		padding: 7%;
+	}
+}
