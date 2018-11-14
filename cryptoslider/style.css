@@ -71,7 +71,7 @@ ul li .content {
 	bottom: -100%;
 	left: 0;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
 	color: #fff;
 	opacity: 0;
@@ -80,6 +80,6 @@ ul li .content {
 ul li:hover .content {
 	bottom: 0;
 	transition: 0.5s;
-	transition-delay: 0s;
+	transition-delay: 0.2s;
 	opacity: 1;
 }

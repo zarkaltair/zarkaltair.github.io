@@ -1,7 +1,12 @@
 /* 480px - 1024px */
 
 @media screen and (max-width: 1024px) {
-
+	h2 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 12px;
+	}
 }
 
 /* 320px - 480px */
