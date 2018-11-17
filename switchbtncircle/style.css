@@ -13,7 +13,7 @@ body {
 
 input[type='checkbox'] {
 	position: relative;
-	width: 400px;
+	width: 380px;
 	height: 200px;
 	-webkit-appearance: none;
 	background: #c6c6c6;
@@ -24,7 +24,7 @@ input[type='checkbox'] {
 }
 
 input:checked[type='checkbox'] {
-	background: #00FF5E;
+	background: #00FF08;
 }
 
 input[type='checkbox']:before {
@@ -42,5 +42,5 @@ input[type='checkbox']:before {
 }
 
 input:checked[type='checkbox']:before {
-	left: 200px;
+	left: 180px;
 }
