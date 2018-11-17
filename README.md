@@ -10,3 +10,7 @@ https://zarkaltair.github.io/neuralnetwork/
 https://zarkaltair.github.io/pricing/
 https://zarkaltair.github.io/knockneo/
 https://zarkaltair.github.io/randomcolor/
+https://zarkaltair.github.io/cryptoslider/
+https://zarkaltair.github.io/parallax/
+https://zarkaltair.github.io/switchbtncircle/
+https://zarkaltair.github.io/switchbutton/

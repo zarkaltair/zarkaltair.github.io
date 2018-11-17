@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parallax Effect | CODEGRID</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="CODEGRID">
+
+    <!-- link stylesheets -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/perspectiveRules.css" rel="stylesheet" />
+
+    <!-- link jquery files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/jquery.logosDistort.js"></script>
+    <script src="assets/js/jquery.particleground.min.js"></script>
+</head>
+<body>
+
+     <div id="parallax">
+          <img src="assets/images/hero.jpeg" alt="background">
+          <img src="assets/images/timeline.png" alt="el-1">
+          <img src="assets/images/bookeh.png" alt="el-2">
+     </div>
+     <script>
+
+          $("#parallax").logosDistort({
+               effectWeight: 3
+          });
+
+     </script>
+</body>
+</html>
