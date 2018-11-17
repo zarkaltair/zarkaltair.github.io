@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Click slider</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+</head>
+<body>
+	
+	<main id="main">
+		<gallery ref='gallery' v-bind:images='images' v-on:next='next'></gallery>
+	</main>
+
+	<template id="gallery_template">
+		<transition-group tag='figure' class='Gallery' name='open'>
+			<img v-for='(image, index) of images' 
+				v-bind:src='image'
+				v-bind:key='index'
+				v-on:click='onClick'
+				v-bind:style="{'--circle-x': x, '--circle-y': y}">
+		</transition-group>
+	</template>
+
+	<script>
+		
+		Vue.component('gallery', {
+			template: '#gallery_template',
+			props: {
+				images: Array
+			},
+			data() {
+				return {
+					x: '100%',
+					y: '100%'
+				}
+			},
+			methods: {
+				onClick(event) {
+					const x = event.offsetX - event.target.offsetLeft
+					const y = event.offsetY - event.target.offsetTop
+					const xPercent = `${Math.round(100 * x / event.target.offsetWidth)}%`
+					const yPercent = `${Math.round(100 * y / event.target.offsetHeight)}%`
+					this.x = xPercent
+					this.y = yPercent
+					this.$emit('next', {x: xPercent, y: yPercent})
+				}
+			}
+		})
+
+		const vm = new Vue({
+			el: '#main',
+			data: {
+				images: [
+				    'https://images.pexels.com/photos/117377/ortler-backcountry-skiiing-alpine-north-wall-117377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+				    'https://images.pexels.com/photos/209955/pexels-photo-209955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+				    'https://images.pexels.com/photos/270739/pexels-photo-270739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+				    'https://images.pexels.com/photos/206776/pexels-photo-206776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+				    'https://images.pexels.com/photos/291732/pexels-photo-291732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+				    'https://images.pexels.com/photos/300857/pexels-photo-300857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+				    'https://images.pexels.com/photos/51382/runners-head-winter-ski-tour-snow-landscape-51382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+				]
+			},
+			methods: {
+				next() {
+					const image = this.images.shift()
+					this.$nextTick(() => this.images.push(image))
+				}
+			}
+		})
+
+	</script>
+
+</body>
+</html>

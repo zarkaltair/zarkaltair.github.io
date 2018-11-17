@@ -14,3 +14,5 @@ https://zarkaltair.github.io/cryptoslider/
 https://zarkaltair.github.io/parallax/
 https://zarkaltair.github.io/switchbtncircle/
 https://zarkaltair.github.io/switchbutton/
+https://zarkaltair.github.io/clickslider/
+https://zarkaltair.github.io/sliderkonjak/
