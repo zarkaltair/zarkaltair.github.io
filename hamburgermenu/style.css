@@ -48,7 +48,7 @@ body {
 	background-repeat: no-repeat;
 }
 #container section {
-	height: 640px;
+	height: 460px;
 	text-align: center;
 }
 #container section:first-of-type{
@@ -62,8 +62,9 @@ body {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 	#container section:first-of-type {
+		height: 200px;
 		padding-top: 15vh;
 	}
 	#container section:first-of-type h1 {
@@ -72,8 +73,18 @@ body {
 	#container section:first-of-type p {
 		font-size: 18px;
 	}
+	#paper-front {
+		background-image: url(oll731.jpg);
+	}
 }
-
+@media (max-width: 480px) {
+	#container section:first-of-type {
+		height: 200px;
+	}
+	#paper-front {
+		background-image: url(oll411.jpg);
+	}
+}
 
 .hamburger {
 	position: fixed;
