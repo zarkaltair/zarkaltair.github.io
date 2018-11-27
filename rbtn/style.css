@@ -97,3 +97,21 @@ body {
 .box label input:checked ~ span.no:after {
 	background: #ff0000;
 }
+
+@media screen and (max-width: 1024px) {
+	.box {
+		width: 300px;
+		padding: 30px;
+	}
+	.box p {
+		font-size: 36px;
+	}
+	.box label span {
+		margin: 30px 15px;
+		padding: 7.5px;
+		width: 75px;
+	}
+	.box label span {
+		font-size: 21px;
+	}
+}
