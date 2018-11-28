@@ -58,6 +58,13 @@ body {
 	.txt {
 		font-size: 160px;
 	}
+	.dodge {
+		background: radial-gradient(circle, white, black 25%) center / 8% 28%;
+	}
+	.neon-wrapper {
+		height: 100vh;
+    	margin: 5% 0 0 0;
+	}
 }
 @media screen and (max-width: 480px) {
 	.txt {
@@ -65,5 +72,9 @@ body {
 	}
 	.dodge {
 		background: radial-gradient(circle, white, black 25%) center / 9% 30%;
+	}
+	.neon-wrapper {
+		height: 100vh;
+    	margin: 120% 0 0 0;
 	}
 }
