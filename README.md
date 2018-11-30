@@ -7,6 +7,7 @@ https://zarkaltair.github.io/cryptoclick/
 https://zarkaltair.github.io/cryptogallery/
 https://zarkaltair.github.io/cryptoslider/
 https://zarkaltair.github.io/hamburgermenu/
+https://zarkaltair.github.io/jsmenu/
 https://zarkaltair.github.io/knockneo/
 https://zarkaltair.github.io/matrixbackground/
 https://zarkaltair.github.io/mycompany/
