@@ -2,6 +2,7 @@
 
 https://zarkaltair.github.io/background/
 https://zarkaltair.github.io/bsnext/
+https://zarkaltair.github.io/checkbox/
 https://zarkaltair.github.io/clickslider/
 https://zarkaltair.github.io/cryptoclick/
 https://zarkaltair.github.io/cryptogallery/
