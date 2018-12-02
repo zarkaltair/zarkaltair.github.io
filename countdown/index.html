@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#8F0000">
+	<title>Countdown timer</title>
+	<link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="jquery.countdown.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+	
+	<h1>До нового года осталось:</h1>
+
+	<div id="countdown"></div>
+
+	<p id="note"></p>
+
+	<script src="jquery.countdown.js"></script>
+
+	<script type="text/javascript">
+		
+		$(function() {
+			var note = $('#note'),
+				ts = new Date(2019, 0, 1),
+				newYear = true;
+			if((new Date()) > ts) {
+				ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
+				newYear = false;
+			}
+
+			$('#countdown').countdown( {
+				timestamp : ts,
+				callback : function(days, hours, minutes, seconds) {
+
+					var message = '';
+					message += days + ' day' + (days==1 ? '':'s') + ', ';
+					message += hours + ' hour' + (hours==1 ? '':'s') + ', ';
+					message += minutes + ' minute' + (minutes==1 ? '':'s') + ' and ';
+					message += seconds + ' second' + (seconds==1 ? '':'s') + ' </br> ';
+
+/*					if(newYear) {
+						message += 'left untill the new Year!';
+					}
+					else {
+						message += 'left to 10 days from now!';
+					}*/
+					note.html(message);
+				}
+			});
+		});
+
+	</script>
+</body>
+</html>
