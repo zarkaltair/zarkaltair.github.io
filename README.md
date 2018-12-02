@@ -1,5 +1,6 @@
 # zarkaltair.github.io
 
+https://zarkaltair.github.io/amazingslider/
 https://zarkaltair.github.io/background/
 https://zarkaltair.github.io/bsnext/
 https://zarkaltair.github.io/checkbox/
