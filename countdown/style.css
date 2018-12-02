@@ -28,12 +28,12 @@ h1 {
 }
 @media screen and (max-width: 1024px) {
 	body {
-		padding: 10% 0 0;
+		padding: 8% 0 0;
 	}
 }
 @media screen and (max-width: 480px) {
 	body {
-		padding: 50% 0 0;
+		padding: 40% 0 0;
 	}
 	h1 {
 		font-size: 22px;
