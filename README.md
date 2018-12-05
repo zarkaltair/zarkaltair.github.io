@@ -23,6 +23,7 @@ https://zarkaltair.github.io/neontext/
 https://zarkaltair.github.io/neuralnetwork/
 https://zarkaltair.github.io/parallax/
 https://zarkaltair.github.io/pricing/
+https://zarkaltair.github.io/providence/
 https://zarkaltair.github.io/randomcolor/
 https://zarkaltair.github.io/rbtn/
 https://zarkaltair.github.io/sliderkonjak/
