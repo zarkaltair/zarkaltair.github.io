@@ -1,0 +1,146 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#all {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+}
+body {
+	font-family: tahoma;
+	background: #444;
+	color: #352e2a;
+	background: url('background.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+img {
+	width: 100%;
+}
+#allcontent {
+	margin: 60px auto 0 auto;
+	width: 100%;
+	max-width: 1140px;
+	height: 700px;
+	position: relative;
+	animation: comein 1.5s ease-in-out;
+}
+.portfolio {
+	width: 100%;
+	max-width: 1000px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: 0.2s;
+	cursor: pointer;
+	box-shadow: -2px 0 3px rgba(0, 0, 0, 0.3);
+}
+.portfolio:nth-child(1) {
+	left: 10px;
+}
+.portfolio:nth-child(1):hover {
+	left: 0;
+	transform: rotate(-2deg);
+}
+.portfolio:nth-child(2) {
+	left: 10%;
+}
+.portfolio:nth-child(2):hover {
+	left: 5%;
+	transform: rotate(-2deg);
+}
+.portfolio:nth-child(3) {
+	left: 20%;
+}
+.portfolio:nth-child(3):hover {
+	left: 15%;
+	transform: rotate(-2deg);
+}
+.portfolio:nth-child(4) {
+	left: 30%;
+}
+.portfolio:nth-child(4):hover {
+	left: 25%;
+	transform: rotate(-2deg);
+}
+.portfolio:nth-child(5) {
+	left: 40%;
+}
+.portfolio:nth-child(5):hover {
+	left: 35%;
+	transform: rotate(-2deg);
+}
+.opened {
+	z-index: 1000;
+	left: 0 !important;
+	transform: rotate(0deg);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	max-width: 1140px;
+}
+.opened img {
+	z-index: 5;
+}
+.ombra {
+	position: absolute;
+	bottom: 20px;
+	left: 10px;
+	width: 90%;
+	height: 20px;
+	box-shadow: 0 15px 10 rgba(0, 0, 0, 0.7);
+	transform: rotate(-2deg);
+	display: none;
+	z-index: -1;
+}
+.ombra:after {
+	display: block;
+	content: '';
+	position: absolute;
+	bottom: -8px;
+	right: -93px;
+	width: 90%;
+	height: 20px;
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	transform: rotate(4deg);
+}
+#navi {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin: 0 0 0 -62px;
+	background: #000;
+	opacity: 0.8;
+	color: white;
+	height: 24px;
+	border-radius: 20px;
+	padding: 7px 10px 0 10px;
+}
+.circle {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+	background: #efefef;
+	border: 1px solid #000;
+	margin-right: 6px;
+	cursor: pointer;
+}
+.circle:hover {
+	background: white;
+	border: 1px solid #ccc;
+}
+.circle:active, .activenav, .activenav:hover {
+	background: #666;
+	border: 1px solid #333;
+}
+.activenav:hover {
+	cursor: default;
+}
+.circle:last-child {
+	margin-right: 0;
+}

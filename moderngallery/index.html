@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modern Gallery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+	
+	<div id="all">
+		<div id="allcontent">
+			<div id="maincontent">
+				<div class="portfolio">
+					<img src="h1.jpg" alt=""></br>
+					<div class="ombra"></div>
+				</div>
+				<div class="portfolio">
+					<img src="h2.jpg" alt=""></br>
+					<div class="ombra"></div>
+				</div>
+				<div class="portfolio">
+					<img src="h3.jpg" alt=""></br>
+					<div class="ombra"></div>
+				</div>
+				<div class="portfolio">
+					<img src="h4.jpg" alt=""></br>
+					<div class="ombra"></div>
+				</div>
+				<div class="portfolio">
+					<img src="h5.jpg" alt=""></br>
+					<div class="ombra"></div>
+				</div>
+			</div>
+			<div id="navi"></div>
+		</div>
+	</div>
+
+	<script>
+		
+		$('.portfolio').each(function(index){
+			$(this).attr('id', 'img' + (index + 1))
+		});
+
+		$('.portfolio').each(function(){
+			$('#navi').append('<div class="circle"></div>')
+		});
+
+		$('.circle').each(function(index){
+			$(this).attr('id', 'circle' + (index + 1))
+		});
+
+		$('.portfolio').click(function(){
+			if($(this).hasClass)('opened'){
+				$(this).removeClass('opened');
+				$('.portfolio').fadeIn('fast');
+				$(this).find('.ombra').fadeOut();
+				$('.circle' + index).addClass('activenav')
+			}
+		});
+
+	</script>
+
+</body>
+</html>
