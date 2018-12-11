@@ -72,7 +72,7 @@ html {
 	align-items: center;
 	justify-content: center;
 	transition: 0.2s;
-	transform: translateX(100%);
+	transform: translateX(50%);
 }
 .m-menu__active {
 	transform: translateX(0%);
