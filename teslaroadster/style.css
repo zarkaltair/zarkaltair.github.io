@@ -1,0 +1,322 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+#hero {
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/hero.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+	#hero {
+		background-image: url(images/hero-mobile.jpg);
+	}
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+.navbar-brand img {
+	width: 100px;
+}
+ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	padding: 0 0.5rem;
+	list-style: none;
+}
+ul li a {
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 900;
+}
+ul li a:hover {
+	color: white;
+}
+.navbar-shop ul {
+	margin-right: 40px;
+}
+.roadster {
+	color: white;
+}
+.navbar-secondary {
+	display: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 900;
+	transition: 0.2s;
+	transform: translate(100%);
+}
+.navbar-secondary.active {
+	transform: translate(0);
+}
+.main-text {
+	color: black;
+	text-align: center;
+}
+.main-text p {
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-top: 3rem;
+	font-weight: 100;
+}
+.main-text h2 {
+	font-size: 48px;
+	margin-top: 0;
+	line-height: 1.1;
+	letter-spacing: 0.15rem;
+}
+.discription {
+	color: white;
+	margin-top: 36rem;
+	display: block;
+	text-align: -webkit-center;
+}
+.discription h4 {
+	width: 400px;
+	font-weight: 100;
+}
+.specifications {
+	display: flex;
+	color: white;
+	justify-content: center;
+}
+.speedometer {
+	width: 30px;
+}
+.specifications div h6 p {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 900;
+}
+.specifications h6 {
+	margin: 0;
+	font-size: 30px;
+}
+.specifications p {
+	font-size: 12px;
+	margin: 0;
+}
+.specifications h6 a {
+	color: white;
+}
+.specifications div {
+	padding: 0 2.5rem;
+}
+.btn-reserve {
+	margin-top: 20px;
+}
+.btn-reserve a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	border: 3px solid white;
+	padding: 10px 55px;
+	border-radius: 30px;
+	font-size: 12px;
+	font-weight: 900;
+	transition: 300ms;
+}
+.btn-reserve a:hover {
+	background-color: white;
+	color: black;
+}
+.speed {
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+
+
+#video-and-stats {
+	text-align: center;
+}
+#video-and-stats iframe {
+	width: 100%;
+	height: 700px;
+}
+.stats {
+	display: inline-block;
+}
+.stats ul {
+	display: block;
+}
+.stats li {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+	width: 600px;
+	border-bottom: 1px solid grey;
+}
+.stats li:last-child {
+	border-bottom: none;
+}
+.black-color {
+	color: black;
+}
+.title {
+	
+}
+.value {
+	font-weight: bold;
+}
+.base-spec {
+	font-weight: bold;
+}
+.long {
+	width: 217px;
+}
+
+#aero {
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/back.jpg);
+	background-position: center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+
+}
+.aero {
+	display: flex;
+	justify-content: center;
+	padding-top: 40rem;
+}
+.aero-text {
+	width: 500px;
+}
+.left {
+	font-size: 35px;
+}
+.right {
+	padding-top: 10px;
+}
+#figure {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+.figure {
+	width: 65%;
+}
+.interior {
+	width: 100%;
+	padding-top: 14%;
+}
+.figure-main-text {
+	display: flex;
+	padding-top: 1rem;
+}
+.figure-title {
+	font-weight: bold;
+	padding-right: 2rem;
+	font-size: 20px;
+}
+.figure-text {
+	padding-top: 3px;
+}
+#topview {
+	width: 100%;
+	height: 1542px;
+	justify-content: center;
+	background-image: url(images/top.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.topview-content {
+	padding-top: 70rem;
+	padding-left: 100px;
+}
+.topview-text {
+	width: 400px;
+}
+
+.footer	{
+	text-align: center;
+}
+.footer-btn-1 {
+	padding: 2rem 0 1rem 0;
+}
+.footer-btn-2 {
+	padding: 0 0 2rem 0;
+}
+.footer-btn-2 a {
+	padding: 10px 50px;
+}
+.footer-spec {
+	display: flex;
+	justify-content: center;
+	padding: 3rem 0 1rem 0;
+	font-size: 14px;
+	color: grey;
+}
+.footer-spec p {
+	padding: 0 2rem;
+	border-right: 1px solid grey;
+}
+.footer-spec p:last-child {
+	border: none;
+}
+
+
+/* Specification for habmurger menu */
+
+.icon {
+	position: absolute;
+	top: 7px;
+    left: 97%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0);
+	z-index: 1;
+}
+.hamburger {
+	width: 18px;
+	height: 2px;
+	background: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.5s;
+}
+.hamburger:before,
+.hamburger:after {
+	content: '';
+	position: absolute;
+	width: 18px;
+	height:2px;
+	background: black;
+	transition: 0.5s;
+}
+.hamburger:before {
+	top: -5px;
+}
+.hamburger:after {
+	top: 5px;
+}
+.icon.active .hamburger {
+	background: rgba(0, 0, 0, 0);
+}
+.icon.active .hamburger:before {
+	top: 0;
+	transform: rotate(45deg);
+}
+.icon.active .hamburger:after {
+	top: 0;
+	transform: rotate(135deg);
+}
