@@ -4,17 +4,30 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title page -->
 	<title>Roadster | Tesla</title>
+    <!-- link style css -->
 	<link rel="stylesheet" href="style.css">
+    <!-- link media query css -->
 	<link rel="stylesheet" href="media.css">
+    <!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Icons from bootstrap -->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link animate css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- link animate css -->
 	<link rel="stylesheet" href="animate.css">
-	<!-- <script src="numcount.js"></script> -->
-	<script src="wow.min.js"></script>
-	<script>new WOW().init();</script>
+    <!-- link numcount javascript -->
+	<script src="numcount.js"></script>
+    <!-- link jquery -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- link wow javascript -->
+	<script src="wow.min.js"></script>
+    <!-- Spincrement javascript -->
+	<script src="spincrement.js"></script>
+    <!-- Initialisation wow javascript  -->
+	<script>new WOW().init();</script>
 </head>
 <body>
 	
@@ -64,24 +77,28 @@
 				<h4 class="wow fadeInUp" data-wow-delay="0.3s">The quickest car in the world, with record-setting acceleration, range and performance.</h4>
 			</div>
 			<div class="specifications">
-				<div class="acceleration wow fadeIn" data-wow-delay="0.4s"> <!-- <a href="#" class="fa fa-dashboard"></a> -->
-					<h6><img class="speedometer" src="images/speedometer.png" alt="speedometer">1.9<p>s</p></h6>
+				<div class="acceleration wow fadeIn" data-wow-delay='0.3s'>
+					<h6><img class="speedometer" src="images/speedometer.png" alt="speedometer"><span class="spincrement">1.9</span><p>s</p></h6>
 					<p>0-60 mph</p>
 				</div>
-				<div class="speed wow fadeIn" data-wow-delay="0.5s">
+				<div class="speed wow fadeIn" data-wow-delay="0.4s">
 					<h6><p>+</p>250<p>mph</p></h6>
 					<p>Top Speed</p>
 				</div>
-				<div class="range wow fadeIn" data-wow-delay="0.6s">
+				<div class="range wow fadeIn" data-wow-delay="0.5s">
 					<h6>620<p>mi</p></h6>
 					<p>Mile Range</p>
 				</div>
-				<div class="btn-reserve wow fadeIn" data-wow-delay="0.7s">
+				<div class="btn-reserve wow fadeIn" data-wow-delay="0.6s">
 					<a href="#">reserve now</a>
 				</div>
 			</div>
 		</div>
-
+		<div class="arrow-down wow fadeIn" data-wow-delay="0.8s" >
+			<div class="wow bounce" data-wow-iteration='infinite' data-wow-duration="2s">
+				<a href="#video-and-stats" class="go-to"><img src="images/arrow-down.svg" alt="arrow-down"></a>
+			</div>
+		</div>
 	</section>
 
 	<section id="video-and-stats" class=" wow fadeInUp">
@@ -192,7 +209,7 @@
 
 
 	<!-- script for side menu -->
-	<script>
+	<script type="text/javascript">
 
 		$(function() {
 			var link = $('.icon');
@@ -220,6 +237,34 @@
 			});
 		});
 		
+	</script>
+
+	<!-- script for count numbers -->
+	<script>
+		
+		$(document).ready(function(){
+			$('.spincrement').spincrement({
+				duration: 1800,
+				from: -10.0,
+				decimals: 1,
+			});
+		});
+
+	</script>
+
+	<!-- script for scroll down -->
+	<script>
+		
+		$(document).ready(function(){
+		    $('.go_to').click( function(){
+		        var scroll_el = $(this).attr('href');
+		        if ($(scroll_el).length != 0) {
+		            $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 5000);
+		        }
+		        return false;
+		    });
+		});
+
 	</script>
 
 </body>

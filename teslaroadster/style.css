@@ -1,3 +1,5 @@
+/* Specification for body */
+
 body {
 	margin: 0;
 	padding: 0;
@@ -18,6 +20,10 @@ body {
 		background-image: url(images/hero-mobile.jpg);
 	}
 }
+
+
+/* Specification for hero section */
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -138,7 +144,16 @@ ul li a:hover {
 	border-left: 1px solid grey;
 	border-right: 1px solid grey;
 }
+.arrow-down {
+	position: absolute;
+    width: 20px;
+    right: 50%;
+    margin-top: 45px;
+    cursor: pointer;
+}
 
+
+/* Specification for video and stats section */
 
 #video-and-stats {
 	text-align: center;
@@ -179,6 +194,9 @@ ul li a:hover {
 	width: 217px;
 }
 
+
+/* Specification for aero section */
+
 #aero {
 	width: 100%;
 	height: 100vh;
@@ -202,6 +220,10 @@ ul li a:hover {
 .right {
 	padding-top: 10px;
 }
+
+
+/* Specification for figure section */
+
 #figure {
 	width: 100%;
 	height: 100vh;
@@ -227,6 +249,10 @@ ul li a:hover {
 .figure-text {
 	padding-top: 3px;
 }
+
+
+/* Specification for topview section */
+
 #topview {
 	width: 100%;
 	height: 1542px;
@@ -243,6 +269,9 @@ ul li a:hover {
 .topview-text {
 	width: 400px;
 }
+
+
+/* Specification for footer section */
 
 .footer	{
 	text-align: center;
