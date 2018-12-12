@@ -7,6 +7,10 @@ body {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 }
+
+
+/* Specification for hero section */
+
 #hero {
 	width: 100%;
 	height: 100vh;
@@ -15,15 +19,6 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-@media (max-width: 768px) {
-	#hero {
-		background-image: url(images/hero-mobile.jpg);
-	}
-}
-
-
-/* Specification for hero section */
-
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -148,6 +143,7 @@ ul li a:hover {
 	position: absolute;
     width: 20px;
     right: 50%;
+    transform: translate(50%);
     margin-top: 45px;
     cursor: pointer;
 }
@@ -264,7 +260,7 @@ ul li a:hover {
 }
 .topview-content {
 	padding-top: 70rem;
-	padding-left: 100px;
+	padding-left: 300px;
 }
 .topview-text {
 	width: 400px;
