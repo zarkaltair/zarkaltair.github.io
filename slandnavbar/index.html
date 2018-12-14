@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#262626">
+	<title>Sland Nav Bar</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+	
+	<div class="container">
+		<div id="logo">RETRO</div>
+		<div class="navigation-wrapper">
+			<div class="navigation-button">
+				<i class="fa fa-bars"></i>
+			</div>
+			<div class="navigation-menu">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">GALLERY</a></li>
+					<li><a href="#">TESTIMONIAL</a></li>
+					<li><a href="#">LOCATION</a></li>
+					<li><a href="#">PRICING</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+		<section class="hero">
+			<h1>CREATIVE DESIGN <br> 
+			<span>INTRODUCTION</span></h1>
+			<div class="button">
+				<a href="#" class="btn1">Get Started</a>
+				<a href="#" class="btn2">Get Featured</a>
+			</div>
+		</section>
+	</div>
+
+	<script>
+
+	    var navButton = document.querySelector('.navigation-button');
+		var navMenu = document.querySelector('.navigation-menu');
+		var win = window;
+
+		function openMenu(event) {
+		  
+		    navButton.classList.toggle('active');
+		    navMenu.classList.toggle('active');
+
+		    event.preventDefault();
+		    event.stopImmediatePropagation();
+		}
+	  
+		function closeMenu(event) {
+		    if (navButton.classList.contains('active')) {
+		        navButton.classList.remove('active');
+		        navMenu.classList.remove('active');
+		    }
+		}
+		navButton.addEventListener('click', openMenu, false);
+		win.addEventListener('click', closeMenu, false);
+	    
+	</script>
+
+</body>
+</html>

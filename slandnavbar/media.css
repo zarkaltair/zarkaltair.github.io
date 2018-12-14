@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+	.navigation-button {
+		right: 50px;
+	}
+	.hero h1 {
+		margin-top: 90px;
+	}
+}
+
+@media (max-width: 480px) {
+	.navigation-button {
+		
+	}
+	#logo {
+		margin-left: 0;
+	}
+	span {
+		font-size: 50px;
+	}
+	.hero h1 {
+		margin-top: 150px;
+	}
+	.navigation-menu ul {
+		right: 40px;
+	}
+	.navigation-menu.active {
+		z-index: 999;
+	}
+	.navigation-menu {
+		width: 65%;
+	}
+}
