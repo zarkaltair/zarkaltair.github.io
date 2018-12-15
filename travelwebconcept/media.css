@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+	body {
+		background: url(unsplash02.jpg) no-repeat 50% 85%;
+		background-size: cover;
+	}
+	.bottom-bar {
+		display: none;
+	}
+	.header {
+		top: 50%;
+		left: 45%;
+	}
+	.social-media {
+		left: 2%;
+	}
+}
+@media (max-width: 480px) {
+	body {
+		background: url(unsplash03.jpg) no-repeat 0% 85%;
+	}
+	.overlay h1 {
+		width: 70%;
+		text-align: center;
+	}
+	.nav ul li {
+		padding-right: 20px;
+	}
+	.header h1 {
+		margin-bottom: 4rem;
+	}
+	.side-strip {
+		top: 42%;
+		right: -20%;
+	}
+	.social-media {
+		left: -3%;
+	}
+}
