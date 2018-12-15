@@ -26,7 +26,10 @@
 		padding-right: 20px;
 	}
 	.header h1 {
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
+	}
+	.header p {
+		margin-bottom: 2rem;
 	}
 	.side-strip {
 		top: 42%;
