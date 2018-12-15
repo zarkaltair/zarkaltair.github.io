@@ -10,6 +10,9 @@
 		top: 50%;
 		left: 45%;
 	}
+	.header h1 {
+		font-size: 2rem;
+	}
 	.social-media {
 		left: 2%;
 	}
