@@ -5,12 +5,19 @@
 	.hero h1 {
 		margin-top: 90px;
 	}
+	.navigation-menu {
+		width: 45%;
+	}
+	.navigation-menu ul {
+		right: 40px;
+		top: 5px;
+	}
+	.navigation-menu.active {
+		z-index: 999;
+	}
 }
 
 @media (max-width: 480px) {
-	.navigation-button {
-		
-	}
 	#logo {
 		margin-left: 0;
 	}
@@ -20,13 +27,14 @@
 	.hero h1 {
 		margin-top: 150px;
 	}
+	.navigation-menu {
+		width: 65%;
+	}
 	.navigation-menu ul {
 		right: 40px;
+		top: 20px;
 	}
 	.navigation-menu.active {
 		z-index: 999;
-	}
-	.navigation-menu {
-		width: 65%;
 	}
 }
