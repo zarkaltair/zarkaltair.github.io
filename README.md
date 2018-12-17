@@ -7,6 +7,7 @@ https://zarkaltair.github.io/background/
 https://zarkaltair.github.io/backgroundsnow/
 https://zarkaltair.github.io/backgroundvideo/
 https://zarkaltair.github.io/backpulse/
+https://zarkaltair.github.io/banner/
 https://zarkaltair.github.io/bsnext/
 https://zarkaltair.github.io/byalex/
 https://zarkaltair.github.io/checkbox/
