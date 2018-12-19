@@ -4,6 +4,7 @@ This is list with works which i do.
 
 https://zarkaltair.github.io/amazingslider/
 https://zarkaltair.github.io/background/
+https://zarkaltair.github.io/backgroundparallax/
 https://zarkaltair.github.io/backgroundsnow/
 https://zarkaltair.github.io/backgroundvideo/
 https://zarkaltair.github.io/backpulse/
