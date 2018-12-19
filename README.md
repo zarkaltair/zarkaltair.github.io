@@ -3,6 +3,7 @@
 This is list with works which i do.
 
 https://zarkaltair.github.io/amazingslider/
+https://zarkaltair.github.io/backgroundtextanim/
 https://zarkaltair.github.io/animatedlanding/
 https://zarkaltair.github.io/background/
 https://zarkaltair.github.io/backgroundparallax/
