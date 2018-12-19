@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+.title {
+	margin: 5rem 0;
+	font-size: 36px;
+	font-weight: 900;
+	text-align: center;
+}
+.title span {
+	font-size: 18px;
+	color: #999;
+	font-family: 'Major Mono Display', monospace;
+}
+.parallax-window {
+    background: transparent;
+    height: 800px;
+}
+.content {
+	margin: 5% 10%;
+}
+@media (max-width: 1024px) {
+	body {
+		font-size: 15px;
+	}
+}
