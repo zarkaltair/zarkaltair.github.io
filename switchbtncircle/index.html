@@ -12,33 +12,31 @@
 <body>
 
 	<div class="ch-1">
-		<!-- <h1 id="colour">#03a9f4</h1> -->
 		<input id="change" type="checkbox" name="">
 	</div>
 
+	<script>
 
-<!-- 	<script>
-	
-	var btn = document.getElementById('change');
-	var text = document.getElementById('colour');
+		function generator() {
+			var newColour = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+			if (newColour.length < 7) {
+				return generator()
+			};
+    		return newColour
+    	};
 
-	var generator = function() {
-		newColour = '#' + 
-		(Math.random()*0xFFFFFF<<0).toString(16);
-		console.log(newColour.length);
-		if(newColour.length < 7) {
-			generator();
-		}
-	}
+		function selector_Color() {
+		    var btn = (document.getElementById('change').checked);
+			if (btn === true) {
+				window.change.style.background = generator()
+			} else {
+				window.change.style.background = "#c6c6c6"
+			};
+		};
 
-	btn.addEventListener('click', function() {
-		generator();
+		window.addEventListener('click', selector_Color);
 
-		document.body.style.background = newColour;
-		btn.style.color = newColour;
-		text.innerText = newColour;
-	});
+	</script>
 
-</script> -->
 </body>
 </html>
