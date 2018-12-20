@@ -3,11 +3,11 @@
 This is list with works which i do.
 
 https://zarkaltair.github.io/amazingslider/
-https://zarkaltair.github.io/backgroundtextanim/
 https://zarkaltair.github.io/animatedlanding/
 https://zarkaltair.github.io/background/
 https://zarkaltair.github.io/backgroundparallax/
 https://zarkaltair.github.io/backgroundsnow/
+https://zarkaltair.github.io/backgroundtextanim/
 https://zarkaltair.github.io/backgroundvideo/
 https://zarkaltair.github.io/backpulse/
 https://zarkaltair.github.io/banner/
@@ -23,6 +23,7 @@ https://zarkaltair.github.io/hamburgermenu/
 https://zarkaltair.github.io/jsmenu/
 https://zarkaltair.github.io/knockneo/
 https://zarkaltair.github.io/matrixbackground/
+https://zarkaltair.github.io/moderngallery/
 https://zarkaltair.github.io/mycompany/
 https://zarkaltair.github.io/mypicture/
 https://zarkaltair.github.io/mystyle/
@@ -40,5 +41,6 @@ https://zarkaltair.github.io/switchbtncircle/
 https://zarkaltair.github.io/switchbtncirclew/
 https://zarkaltair.github.io/switchbutton/
 https://zarkaltair.github.io/teslaroadster/
+https://zarkaltair.github.io/textshadow/
 https://zarkaltair.github.io/transformhambmenu/
 https://zarkaltair.github.io/travelwebconcept/
