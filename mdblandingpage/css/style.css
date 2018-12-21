@@ -1,0 +1,19 @@
+html,
+body,
+header,
+#intro {
+	height: 100%;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+#intro {
+	background: url(../img/img3.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.top-nav-collapse {
+	background-color: #24355c;
+}
