@@ -15,6 +15,7 @@ https://zarkaltair.github.io/bsnext/
 https://zarkaltair.github.io/byalex/
 https://zarkaltair.github.io/checkbox/
 https://zarkaltair.github.io/clickslider/
+https://zarkaltair.github.io/contactform/
 https://zarkaltair.github.io/countdown/
 https://zarkaltair.github.io/cryptoclick/
 https://zarkaltair.github.io/cryptogallery/
