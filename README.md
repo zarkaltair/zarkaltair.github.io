@@ -1,6 +1,6 @@
 # zarkaltair.github.io
 
-This is a list of works that I do while studying front end development with HTML, CSS and JavaScript
+This is a list of works that I do while studying front end development with **HTML**, **CSS** and **JavaScript**:
 
 https://zarkaltair.github.io/amazingslider/
 https://zarkaltair.github.io/animatedlanding/
